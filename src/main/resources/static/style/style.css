@@ -1,0 +1,83 @@
+h1{
+	color: darkgoldenrod;
+}
+.nav-logo {
+	width: 5rem;
+	margin: 0rem 2rem 0rem 1rem;
+}
+.navbar-light .nav-item .nav-link {
+	color: ghostwhite;
+	font-weight: 500;
+}
+
+.navbar-light .nav-item.active .nav-link {
+
+	color: darkgoldenrod;
+	font-weight: 500;
+}
+
+.navbar-light .nav-item:hover .nav-link {
+	color: ghostwhite;
+	transform: scale(1.15);
+	transition: 50ms;
+	font-weight: 500;
+}
+
+.home-bg {
+	width: 100%;
+	height: 93vh;
+	background-image: url('../img/home.png');
+	background-size: cover;
+}
+
+.main-container {
+	color: floralwhite;
+	margin-top: 5rem;
+	margin-left: 22rem;
+	width: 30rem;
+	height: 20rem;
+	text-align: center;
+}
+
+.sub-container {
+	word-wrap: break-word;
+
+}
+
+.btn {
+
+	margin: 1rem 0rem 1rem 0rem;
+	box-shadow: 2px 2px 2px black;
+	font-size: large;
+	font-weight: 500;
+	color: floralwhite;
+	background-color: #6c757d;
+
+}
+
+.container {
+	margin-top: 1rem;
+	width: 50rem;
+	height:fit-content;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	border-radius: 2rem;
+	background-color: rgb(185, 190, 196);
+
+}
+
+.sub {
+	text-align: left;
+	color: darkgoldenrod;
+	font-weight: 500;
+}
+
+.row {
+	display: inline-block;
+	width: 30rem;
+}
+.alert{
+	padding:20px 0px 2px 0px;
+	font-weight: 500;
+}

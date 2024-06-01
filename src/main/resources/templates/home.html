@@ -1,0 +1,28 @@
+	<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{base::layout(~{::section})}">
+
+<head>
+	<meta charset="UTF-8" />
+	<title></title>
+</head>
+
+<body  >
+	<section class="home-bg d-flex  justify-content-center align-items-center">
+		<div class=" main-container">
+			<div class="sub-container">
+				<h2>
+					Welcome to<br><span style="text-decoration: underline;">Online Contact Manager</span> 
+				</h2>
+			</div>
+			<div class="sub-container">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quo doloremque eveniet cumque laudantium sit a ipsa mollitia. Quidem voluptas ut tenetur aperiam libero suscipit ad ipsa illum nulla veritatis!</p>
+			</div>
+			<div>
+
+			</div>
+			<a  th:href="@{/signup}"><button class="btn">Start</button></a>
+		</div>
+	</section>
+</body>
+
+</html>
